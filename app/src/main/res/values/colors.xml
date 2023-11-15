@@ -7,6 +7,8 @@
     <color name="litegreen">#3ED598</color>
     <color name="catbtncolor">#30444E</color>
     <color name="cattextcolor">#96A7AF</color>
+    <color name="itemstylecolor">#EDF1FA</color>
+    <color name="bottonbarcolor">#30444E</color>
 
 
 </resources>

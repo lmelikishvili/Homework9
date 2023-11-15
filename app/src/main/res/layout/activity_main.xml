@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:layout_marginStart="27dp"
@@ -25,37 +26,37 @@
                 android:id="@+id/imgAll"
                 android:layout_width="53dp"
                 android:layout_height="52dp"
+                android:background="@drawable/all_btn_back"
+                android:gravity="center"
                 android:text="All"
                 android:textColor="@color/white"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:background="@drawable/all_btn_back" />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:id="@+id/catParty"
                 android:layout_width="116dp"
                 android:layout_height="52dp"
-                android:background="@drawable/cat_tbn_style"
-                android:layout_marginStart="10dp">
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cat_tbn_style">
 
                 <ImageView
                     android:id="@+id/imgParty"
                     android:layout_width="14sp"
                     android:layout_height="20dp"
                     android:layout_marginStart="24dp"
-                    android:layout_marginBottom="17dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/party"/>
+                    android:layout_marginBottom="17dp"
+                    android:src="@drawable/party" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="9dp"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="17dp"
                     android:text="Party"
-                    android:textColor="@color/cattextcolor"
-                    android:layout_marginBottom="17dp" />
+                    android:textColor="@color/cattextcolor" />
 
             </LinearLayout>
 
@@ -64,27 +65,27 @@
                 android:id="@+id/catCamping"
                 android:layout_width="wrap_content"
                 android:layout_height="52dp"
-                android:background="@drawable/cat_tbn_style"
-                android:layout_marginStart="10dp">
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cat_tbn_style">
 
                 <ImageView
                     android:id="@+id/imgCamping"
                     android:layout_width="14sp"
                     android:layout_height="20dp"
                     android:layout_marginStart="24dp"
-                    android:layout_marginBottom="17dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/camping"/>
+                    android:layout_marginBottom="17dp"
+                    android:src="@drawable/camping" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="24dp"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="17dp"
                     android:text="Camping"
-                    android:textColor="@color/cattextcolor"
-                    android:layout_marginBottom="17dp" />
+                    android:textColor="@color/cattextcolor" />
 
             </LinearLayout>
 
@@ -92,33 +93,53 @@
                 android:id="@+id/catBeach"
                 android:layout_width="wrap_content"
                 android:layout_height="52dp"
-                android:background="@drawable/cat_tbn_style"
-                android:layout_marginStart="10dp">
+                android:layout_marginStart="10dp"
+                android:background="@drawable/cat_tbn_style">
 
                 <ImageView
                     android:id="@+id/imgBeach"
                     android:layout_width="14sp"
                     android:layout_height="20dp"
                     android:layout_marginStart="24dp"
-                    android:layout_marginBottom="17dp"
                     android:layout_marginTop="15dp"
-                    android:src="@drawable/beach"/>
+                    android:layout_marginBottom="17dp"
+                    android:src="@drawable/beach" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
                     android:layout_marginTop="15dp"
                     android:layout_marginEnd="24dp"
-                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="17dp"
                     android:text="Beach"
-                    android:textColor="@color/cattextcolor"
-                    android:layout_marginBottom="17dp" />
+                    android:textColor="@color/cattextcolor" />
 
             </LinearLayout>
-
         </LinearLayout>
-
     </HorizontalScrollView>
+
+
+    <GridView
+        android:id="@+id/productGridView"
+        android:layout_width="319dp"
+        android:layout_height="545dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:numColumns="auto_fit"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@drawable/bottom_bar_style"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp">
+
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
