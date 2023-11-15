@@ -138,6 +138,41 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:orientation="horizontal"
         tools:layout_editor_absoluteX="0dp">
+        
+        <ImageView
+            android:background="@drawable/like"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="51dp"
+            android:layout_width="18dp"
+            android:layout_height="17dp"/>
+        <ImageView
+            android:background="@drawable/home"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="51dp"
+            android:layout_width="18dp"
+            android:layout_height="17dp"/>
+        <ImageView
+            android:background="@drawable/chat"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="51dp"
+            android:layout_width="18dp"
+            android:layout_height="17dp"/>
+
+        <ImageView
+            android:background="@drawable/bell"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="51dp"
+            android:layout_width="18dp"
+            android:layout_height="17dp"/>
+
+        <ImageView
+            android:background="@drawable/star"
+            android:layout_marginTop="27dp"
+            android:layout_marginStart="51dp"
+            android:layout_width="18dp"
+            android:layout_height="17dp"/>
+
+
 
     </LinearLayout>
 

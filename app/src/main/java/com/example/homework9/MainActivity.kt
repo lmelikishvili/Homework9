@@ -59,6 +59,38 @@ class MainActivity : AppCompatActivity() {
                     category = "zamtariaaa"
 
                 ))
+            it.add(
+                Product(
+                    image = "asdasd",
+                    title = "Belt suit blazer",
+                    price = 120,
+                    category = "zamtariaaa"
+
+                ))
+            it.add(
+                Product(
+                    image = "asdasd",
+                    title = "Belt suit blazer",
+                    price = 120,
+                    category = "zamtariaaa"
+
+                ))
+            it.add(
+                Product(
+                    image = "asdasd",
+                    title = "Belt suit blazer",
+                    price = 120,
+                    category = "zamtariaaa"
+
+                ))
+            it.add(
+                Product(
+                    image = "asdasd",
+                    title = "Belt suit blazer",
+                    price = 120,
+                    category = "zamtariaaa"
+
+                ))
         }
     }
 }
