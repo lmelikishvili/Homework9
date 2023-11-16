@@ -29,6 +29,7 @@
                 android:background="@drawable/all_btn_back"
                 android:gravity="center"
                 android:text="All"
+                android:clickable="true"
                 android:textColor="@color/white"
                 android:textStyle="bold" />
 
@@ -37,6 +38,7 @@
                 android:layout_width="116dp"
                 android:layout_height="52dp"
                 android:layout_marginStart="10dp"
+                android:clickable="true"
                 android:background="@drawable/cat_tbn_style">
 
                 <ImageView
@@ -66,6 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="52dp"
                 android:layout_marginStart="10dp"
+                android:clickable="true"
                 android:background="@drawable/cat_tbn_style">
 
                 <ImageView
@@ -94,6 +97,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="52dp"
                 android:layout_marginStart="10dp"
+                android:clickable="true"
                 android:background="@drawable/cat_tbn_style">
 
                 <ImageView
