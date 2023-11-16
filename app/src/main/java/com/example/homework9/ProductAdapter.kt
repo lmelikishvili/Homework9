@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatTextView
 import com.example.homework9.databinding.ItemProductBinding
@@ -26,10 +27,12 @@ class ProductAdapter(private var c: Context, private var productList: MutableLis
         var v: View = View.inflate(c, R.layout.item_product,null)
         var title = v.findViewById<TextView>(R.id.title)
         var price = v.findViewById<TextView>(R.id.price)
+        var image = v.findViewById<ImageView>(R.id.prodImage)
         var product = productList[position]
 
         title.text = product.title
         price.text = "$ ${product.price.toString()}"
+        image.setImageResource(product.image)
         return v
     }
 

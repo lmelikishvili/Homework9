@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         products.also {
             it.add(
                 Product(
-                    image = "asdasd",
+                    image = R.drawable.camp_11,
                     title = "Belt suit blazer",
                     price = 120,
                     category = "zamtariaaa"
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             ))
             it.add(
                 Product(
-                    image = "asdasd",
+                    image = R.drawable.beach_1,
                     title = "Belt suit blazer",
                     price = 120,
                     category = "zamtariaaa"
@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
                 ))
             it.add(
                 Product(
-                    image = "asdasd",
+                    image = R.drawable.party_1,
                     title = "Belt suit blazer",
                     price = 120,
                     category = "zamtariaaa"
@@ -53,39 +53,7 @@ class MainActivity : AppCompatActivity() {
                 ))
             it.add(
                 Product(
-                    image = "asdasd",
-                    title = "Belt suit blazer",
-                    price = 120,
-                    category = "zamtariaaa"
-
-                ))
-            it.add(
-                Product(
-                    image = "asdasd",
-                    title = "Belt suit blazer",
-                    price = 120,
-                    category = "zamtariaaa"
-
-                ))
-            it.add(
-                Product(
-                    image = "asdasd",
-                    title = "Belt suit blazer",
-                    price = 120,
-                    category = "zamtariaaa"
-
-                ))
-            it.add(
-                Product(
-                    image = "asdasd",
-                    title = "Belt suit blazer",
-                    price = 120,
-                    category = "zamtariaaa"
-
-                ))
-            it.add(
-                Product(
-                    image = "asdasd",
+                    image = R.drawable.camp_2,
                     title = "Belt suit blazer",
                     price = 120,
                     category = "zamtariaaa"
